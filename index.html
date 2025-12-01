@@ -3,106 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Webster | Portfolio</title>
+    <title>Stephen Webster | Software Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-            background-color: #f7f7f7;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-            box-shadow: 0 0 8px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #005bbb;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            margin-top: 10px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #666;
-        }
-    </style>
+    <script src="https://kit.fontawesome.com/a2d9d5a64c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<header>
+<div class="hero">
     <h1>Stephen Webster</h1>
-    <h3>Software Developer | Computer Science Student</h3>
-</header>
+    <p class="subtitle">Software Developer • Computer Science Student</p>
 
-<div class="section">
-    <h2>About Me</h2>
-    <p>
-        I am a dedicated Computer Science student with strong experience in Python, Django, C#, ASP.NET,
-        networking, databases, and software engineering. This portfolio highlights my academic and personal
-        projects from the past several years, including full-stack web applications, REST APIs, scheduling tools,
-        interactive Python applications, and network protocol analysis work.
-    </p>
+    <div class="icon-bar">
+        <a href="https://github.com/mad-cap-1" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" id="linkedin-btn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <a href="#" class="resume-btn">Download Resume</a>
 </div>
 
-<div class="section">
-    <h2>GitHub Repositories</h2>
-    <ul>
-        <li><a href="https://github.com/mad-cap-1/SunridgeWEB" target="_blank">SunridgeWEB (Senior Project)</a></li>
-        <li><a href="https://github.com/mad-cap-1/TeenScheduler" target="_blank">TeenScheduler (Django App)</a></li>
-        <li><a href="https://github.com/mad-cap-1/BookAPI" target="_blank">BookAPI (Django REST Framework)</a></li>
-        <li><a href="https://github.com/mad-cap-1/MadLibs" target="_blank">MadLibs (Django App)</a></li>
-        <li><a href="https://github.com/mad-cap-1/ChooseYourOwnAdventure" target="_blank">Choose Your Own Adventure (Python)</a></li>
-        <li><a href="https://github.com/mad-cap-1/ProtocolAnalysis" target="_blank">Protocol Analysis (Wireshark Project)</a></li>
-    </ul>
-</div>
+<div class="container">
 
-<div class="section">
-    <h2>Featured CS Projects</h2>
-    <ul>
-        <li><strong>Sunridge HOA Web Application</strong> – A full-stack ASP.NET Core Razor Pages system with secure document uploads, identity roles, a swag shop, billing workflow, invoice management, and admin panels.</li>
-        <li><strong>TeenScheduler</strong> – A Django application for chore scheduling and task management with authentication, roles, and calendar-style interface components.</li>
-        <li><strong>BookAPI</strong> – A Django REST Framework CRUD API with categories, query filtering, and a clean REST architecture.</li>
-        <li><strong>MadLibs Application</strong> – A Django storytelling app using forms, validation, and reCAPTCHA for spam protection.</li>
-        <li><strong>Protocol Analysis Project</strong> – A network-forensics assessment of a smart plug using Wireshark, analyzing protocols such as mDNS, SSDP, and HTTP.</li>
-        <li><strong>Choose Your Own Adventure Game</strong> – A Python interactive story engine with branching paths and optional save/load state management.</li>
-    </ul>
-</div>
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated Computer Science student with strong experience in Python, Django, C#, ASP.NET,
+            networking, databases, and software engineering. This portfolio highlights my work in full-stack web
+            development, REST APIs, scheduling tools, network protocol analysis, and more.
+        </p>
+    </div>
 
-<div class="section">
-    <h2>LinkedIn</h2>
-    <p>
-        <a href="#" target="_blank">
-            LinkedIn Profile (https://www.linkedin.com/in/stephen-webster-901b457a/)
-        </a>
-    </p>
-</div>
+    <div class="section">
+        <h2>GitHub Repositories</h2>
+        <ul>
+            <li><a href="https://github.com/mad-cap-1/SunridgeWEB" target="_blank">SunridgeWEB (Senior Project)</a></li>
+            <li><a href="https://github.com/mad-cap-1/TeenScheduler" target="_blank">TeenScheduler (Django App)</a></li>
+            <li><a href="https://github.com/mad-cap-1/BookAPI" target="_blank">BookAPI (Django REST Framework)</a></li>
+            <li><a href="https://github.com/mad-cap-1/MadLibs" target="_blank">MadLibs (Django App)</a></li>
+            <li><a href="https://github.com/mad-cap-1/ChooseYourOwnAdventure" target="_blank">Choose Your Own Adventure (Python)</a></li>
+            <li><a href="https://github.com/mad-cap-1/ProtocolAnalysis" target="_blank">Protocol Analysis (Wireshark Project)</a></li>
+        </ul>
+    </div>
 
-<div class="section">
-    <h2>Contact</h2>
-    <p>Email: <strong>AddYourEmailHere@example.com</strong></p>
-    <p>Feel free to reach out for collaboration or project discussions.</p>
-</div>
+    <div class="section">
+        <h2>Featured Projects</h2>
+        <ul>
+            <li><strong>Sunridge HOA Web Application</strong> – Full-stack ASP.NET Core project with secure uploads, roles, billing, invoicing, and admin features.</li>
+            <li><strong>TeenScheduler</strong> – Django scheduling system with authentication and chore-task logic.</li>
+            <li><strong>BookAPI</strong> – A Django REST API with categories, CRUD operations, and clean routing.</li>
+            <li><strong>MadLibs</strong> – Form-based storytelling app with validation and reCAPTCHA support.</li>
+            <li><strong>Protocol Analysis</strong> – Smart plug forensic analysis using mDNS, SSDP, HTTP, and Wireshark.</li>
+            <li><strong>Choose Your Own Adventure</strong> – Python branching story engine with save/load options.</li>
+        </ul>
+    </div>
 
-<div class="footer">
-    <p>© 2025 Stephen Webster</p>
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: <strong>your-email@example.com</strong></p>
+        <p>Feel free to reach out for collaboration or project discussions.</p>
+    </div>
+
+    <div class="footer">
+        © 2025 Stephen Webster
+    </div>
+
 </div>
 
 </body>
