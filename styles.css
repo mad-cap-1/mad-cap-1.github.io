@@ -1,96 +1,84 @@
-/* ===== Reset ===== */
-* {
+/* GENERAL PAGE RESET */
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Soft professional light blue-gray */
+    background-color: #eef3fb;
 }
 
-/* ===== Body ===== */
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    background: linear-gradient(180deg, #f2f4f8 0%, #e3e7ee 100%);
-    color: #333;
-    line-height: 1.7;
-}
-
-/* ===== HERO HEADER ===== */
+/* HERO HEADER */
 .hero {
-    background: linear-gradient(135deg, #006dff, #42a5ff);
-    color: white;
     text-align: center;
-    padding: 60px 20px;           /* smaller height */
-    margin-bottom: 40px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+    padding: 60px 20px;
+
+    /* Slightly smaller header than before */
+    background: linear-gradient(90deg, #1d7cf2, #4da3ff);
+    color: white;
 }
 
 .hero h1 {
-    font-size: 46px;              /* slightly smaller title */
-    font-weight: 800;
-    margin-bottom: 8px;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 10px;
 }
 
-.hero .subtitle {
-    font-size: 18px;              /* slightly smaller subtitle */
+.subtitle {
+    font-size: 18px;
     opacity: 0.9;
-    margin-bottom: 12px;
 }
 
-/* ===== ICON BAR ===== */
+/* SOCIAL ICONS */
 .icon-bar a {
+    margin: 0 10px;
+    font-size: 26px;
     color: white;
-    font-size: 30px;
-    margin: 0 12px;
-    transition: 0.3s ease;
+    transition: opacity 0.2s;
 }
 
 .icon-bar a:hover {
-    opacity: 0.75;
+    opacity: 0.7;
 }
 
-/* ===== MAIN CONTAINER ===== */
+/* MAIN CONTENT */
 .container {
     max-width: 900px;
-    margin: 0 auto 40px auto;
-    padding: 0 20px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
-/* ===== SECTIONS (cards) ===== */
+/* SECTIONS (white cards) */
 .section {
     background: white;
-    padding: 28px 32px;
-    margin-bottom: 30px;
+    padding: 25px 30px;
+    margin-bottom: 40px;
     border-radius: 14px;
-    border: 1px solid #d6d9df;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
-
-.section:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 .section h2 {
-    margin-bottom: 15px;
-    font-size: 26px;
-    color: #006dff;
-    border-left: 6px solid #006dff;
+    color: #0066ff;
+    margin-top: 0;
+    border-left: 6px solid #0066ff;
     padding-left: 10px;
 }
 
-/* ===== LISTS ===== */
-.section ul {
-    margin-left: 20px;
+/* Links */
+.section a {
+    color: #0054d6;
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.section li {
-    margin-bottom: 12px;
+.section a:hover {
+    text-decoration: underline;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .footer {
     text-align: center;
-    padding: 35px 0 45px 0;
-    color: #777;
+    padding: 25px;
+    color: #666;
     font-size: 14px;
 }
