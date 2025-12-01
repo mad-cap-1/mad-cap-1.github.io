@@ -1,98 +1,96 @@
-/* GLOBAL BODY */
-body {
-    font-family: "Segoe UI", Arial, sans-serif;
+/* ===== Reset ===== */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
     background: linear-gradient(180deg, #f2f4f8 0%, #e3e7ee 100%);
     color: #333;
     line-height: 1.7;
 }
 
-
-/* HERO HEADER */
+/* ===== HERO HEADER ===== */
 .hero {
     background: linear-gradient(135deg, #006dff, #42a5ff);
     color: white;
     text-align: center;
-    padding: 60px 20px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+    padding: 60px 20px;           /* smaller height */
+    margin-bottom: 40px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
 }
 
 .hero h1 {
-    font-size: 46px;
+    font-size: 46px;              /* slightly smaller title */
     font-weight: 800;
     margin-bottom: 8px;
 }
 
 .hero .subtitle {
-    font-size: 18px;
-    margin-bottom: 14px;
+    font-size: 18px;              /* slightly smaller subtitle */
     opacity: 0.9;
+    margin-bottom: 12px;
 }
 
+/* ===== ICON BAR ===== */
 .icon-bar a {
     color: white;
     font-size: 30px;
-    margin: 0 10px;
+    margin: 0 12px;
     transition: 0.3s ease;
 }
 
 .icon-bar a:hover {
-    color: #dfefff;
-    transform: translateY(-3px);
+    opacity: 0.75;
 }
 
-
-/* MAIN CONTENT */
+/* ===== MAIN CONTAINER ===== */
 .container {
-    width: 80%;
     max-width: 900px;
-    margin: 40px auto;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
 }
 
-
-/* SECTION CARD */
+/* ===== SECTIONS (cards) ===== */
 .section {
     background: white;
-    padding: 25px 30px;
+    padding: 28px 32px;
     margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    border: 1px solid #d6d9df;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
 }
 
 .section h2 {
-    border-left: 6px solid #006dff;
-    padding-left: 12px;
-    font-size: 24px;
     margin-bottom: 15px;
-}
-
-
-/* LINK LISTS */
-.section ul {
-    padding-left: 20px;
-}
-
-.section ul li {
-    margin: 8px 0;
-}
-
-.section a {
+    font-size: 26px;
     color: #006dff;
-    font-weight: 600;
-    text-decoration: none;
+    border-left: 6px solid #006dff;
+    padding-left: 10px;
 }
 
-.section a:hover {
-    text-decoration: underline;
+/* ===== LISTS ===== */
+.section ul {
+    margin-left: 20px;
 }
 
+.section li {
+    margin-bottom: 12px;
+}
 
-/* FOOTER */
+/* ===== FOOTER ===== */
 .footer {
     text-align: center;
-    color: #555;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 35px 0 45px 0;
+    color: #777;
     font-size: 14px;
 }
