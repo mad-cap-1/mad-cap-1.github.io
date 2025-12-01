@@ -5,39 +5,74 @@
     box-sizing: border-box;
 }
 
-/* ===== Body Styling ===== */
+/* ===== Body ===== */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background: #f0f2f5;
     color: #333;
     line-height: 1.7;
-    padding: 40px 20px;
+}
+
+/* ===== Hero Header ===== */
+.hero {
+    background: linear-gradient(135deg, #0078ff, #4da3ff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.hero .subtitle {
+    font-size: 20px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+/* ===== Icon Bar ===== */
+.icon-bar {
+    margin-bottom: 25px;
+}
+
+.icon-bar a {
+    color: white;
+    font-size: 32px;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+.icon-bar a:hover {
+    opacity: 0.7;
+}
+
+/* ===== Resume Button ===== */
+.resume-btn {
+    display: inline-block;
+    padding: 12px 26px;
+    background: white;
+    color: #0078ff;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background: #e9f1ff;
 }
 
 /* ===== Container ===== */
 .container {
     max-width: 900px;
     margin: auto;
-}
-
-/* ===== Header ===== */
-header {
-    text-align: center;
-    margin-bottom: 45px;
-    padding-bottom: 25px;
-    border-bottom: 3px solid #e0e0e0;
-}
-
-header h1 {
-    font-size: 44px;
-    color: #111;
-    font-weight: 700;
-}
-
-header h3 {
-    font-size: 20px;
-    color: #555;
-    margin-top: 8px;
+    padding: 0 20px;
 }
 
 /* ===== Section Cards ===== */
@@ -51,17 +86,15 @@ header h3 {
     transition: 0.3s ease;
 }
 
-/* Hover effect */
 .section:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
-/* Section Titles */
 .section h2 {
     margin-bottom: 15px;
     font-size: 26px;
-    color: #222;
+    color: #0078ff;
     border-left: 6px solid #0078ff;
     padding-left: 10px;
 }
@@ -69,33 +102,16 @@ header h3 {
 /* ===== Lists ===== */
 .section ul {
     margin-left: 18px;
-    margin-top: 10px;
 }
 
 .section li {
-    margin-bottom: 8px;
-}
-
-/* ===== Links ===== */
-a {
-    color: #0078ff;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* ===== Contact Section ===== */
-.section p strong {
-    color: #000;
+    margin-bottom: 10px;
 }
 
 /* ===== Footer ===== */
 .footer {
     text-align: center;
-    color: #666;
-    margin-top: 50px;
+    color: #777;
+    padding: 40px 0;
     font-size: 14px;
 }
