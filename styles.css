@@ -1,4 +1,4 @@
-/* ===== Global Reset ===== */
+/* ===== Reset ===== */
 * {
     margin: 0;
     padding: 0;
@@ -8,110 +8,107 @@
 /* ===== Body ===== */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #f0f2f5;
+    background: #eef1f5;
     color: #333;
     line-height: 1.7;
 }
 
-/* ===== Hero Header ===== */
+/* ===== HERO HEADER ===== */
 .hero {
-    background: linear-gradient(135deg, #0078ff, #4da3ff);
+    background: linear-gradient(135deg, #006dff, #42a5ff);
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
     margin-bottom: 40px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 54px;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
 .hero .subtitle {
-    font-size: 20px;
+    font-size: 22px;
     opacity: 0.9;
     margin-bottom: 25px;
 }
 
-/* ===== Icon Bar ===== */
-.icon-bar {
-    margin-bottom: 25px;
-}
-
+/* ===== ICON BAR ===== */
 .icon-bar a {
     color: white;
-    font-size: 32px;
-    margin: 0 12px;
-    transition: 0.3s;
+    font-size: 36px;
+    margin: 0 14px;
+    transition: 0.3s ease;
 }
 
 .icon-bar a:hover {
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
-/* ===== Resume Button ===== */
+/* ===== RESUME BUTTON ===== */
 .resume-btn {
     display: inline-block;
-    padding: 12px 26px;
+    margin-top: 25px;
+    padding: 12px 30px;
     background: white;
-    color: #0078ff;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 16px;
+    color: #006dff;
+    font-weight: 700;
+    border-radius: 30px;
     text-decoration: none;
-    transition: 0.3s;
+    font-size: 18px;
+    transition: 0.3s ease;
 }
 
 .resume-btn:hover {
-    background: #e9f1ff;
+    background: #e8f0ff;
 }
 
-/* ===== Container ===== */
+/* ===== CONTENT CONTAINER ===== */
 .container {
     max-width: 900px;
     margin: auto;
     padding: 0 20px;
 }
 
-/* ===== Section Cards ===== */
+/* ===== SECTIONS ===== */
 .section {
     background: white;
-    padding: 25px 30px;
+    padding: 28px 32px;
     margin-bottom: 30px;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border-radius: 14px;
+    border: 1px solid #d6d9df;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     transition: 0.3s ease;
 }
 
 .section:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
 }
 
 .section h2 {
     margin-bottom: 15px;
     font-size: 26px;
-    color: #0078ff;
-    border-left: 6px solid #0078ff;
+    color: #006dff;
+    border-left: 6px solid #006dff;
     padding-left: 10px;
 }
 
-/* ===== Lists ===== */
+/* ===== LISTS ===== */
 .section ul {
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 .section li {
     margin-bottom: 10px;
 }
 
-/* ===== Footer ===== */
+/* ===== FOOTER ===== */
 .footer {
     text-align: center;
+    padding: 40px;
     color: #777;
-    padding: 40px 0;
     font-size: 14px;
 }
