@@ -1,39 +1,41 @@
-/* GENERAL PAGE RESET */
+/* Global body styling */
 body {
     margin: 0;
-    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    /* Soft professional light blue-gray */
-    background-color: #eef3fb;
+    background: linear-gradient(to bottom, #e9f1ff, #f5f7fa);
+    color: #222;
 }
 
-/* HERO HEADER */
+/* Hero Header */
 .hero {
-    text-align: center;
-    padding: 60px 20px;
-
-    /* Slightly smaller header than before */
-    background: linear-gradient(90deg, #1d7cf2, #4da3ff);
+    background: linear-gradient(to right, #1479ff, #4db3ff);
     color: white;
+    text-align: center;
+    padding: 40px 20px;   /* Smaller height */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero h1 {
-    font-size: 42px;
+    margin: 0;
+    font-size: 42px;     /* Smaller title */
     font-weight: 700;
-    margin: 0 0 10px;
 }
 
 .subtitle {
     font-size: 18px;
-    opacity: 0.9;
+    opacity: 0.95;
+    margin-top: 8px;
 }
 
-/* SOCIAL ICONS */
+/* Icon bar */
+.icon-bar {
+    margin-top: 15px;
+}
+
 .icon-bar a {
-    margin: 0 10px;
-    font-size: 26px;
     color: white;
+    font-size: 26px;
+    margin: 0 12px;
     transition: opacity 0.2s;
 }
 
@@ -41,44 +43,46 @@ body {
     opacity: 0.7;
 }
 
-/* MAIN CONTENT */
+/* Container */
 .container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
 }
 
-/* SECTIONS (white cards) */
+/* Content Sections */
 .section {
     background: white;
-    padding: 25px 30px;
-    margin-bottom: 40px;
+    padding: 30px 30px 35px;
     border-radius: 14px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #1479ff;
 }
 
 .section h2 {
-    color: #0066ff;
     margin-top: 0;
-    border-left: 6px solid #0066ff;
-    padding-left: 10px;
+    font-size: 26px;
+    color: #1479ff;
+    font-weight: 700;
 }
 
 /* Links */
 .section a {
-    color: #0054d6;
-    font-weight: 500;
+    color: #0c63e4;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .section a:hover {
     text-decoration: underline;
 }
 
-/* FOOTER */
+/* Footer */
 .footer {
     text-align: center;
     padding: 25px;
-    color: #666;
     font-size: 14px;
+    color: #666;
+    margin-top: 40px;
 }
