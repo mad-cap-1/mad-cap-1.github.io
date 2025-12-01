@@ -11,13 +11,13 @@ body {
     background: linear-gradient(to right, #1479ff, #4db3ff);
     color: white;
     text-align: center;
-    padding: 40px 20px;   /* Smaller height */
+    padding: 20px 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero h1 {
     margin: 0;
-    font-size: 42px;     /* Smaller title */
+    font-size: 42px;
     font-weight: 700;
 }
 
